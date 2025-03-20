@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StellarPay - Galactic eWallet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__contenedor">
+      <div class="header__barra">
+        <div class="header__logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 320">
+            <defs>
+              <!-- Gradiente de cian a rosa -->
+              <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#00bcd4"/>
+                <stop offset="100%" stop-color="#e040fb"/>
+              </linearGradient>
+            </defs>
+            <!-- Isotipo: forma abstracta de estrella/cometa -->
+            <polygon fill="url(#gradient)" points="150,20 180,120 280,120 200,180 230,280 150,220 70,280 100,180 20,120 120,120" />
+            <!-- Logotipo tipográfico -->
+            <text x="150" y="315" font-family="Poppins, sans-serif" font-size="40" fill="#FFF" text-anchor="middle">
+              Stellarpay
+            </text>
+          </svg>
+        </div>
+        <nav class="navegacion">
+          <a href="#" class="navegacion__link">¿Qué es?</a>
+          <a href="#" class="navegacion__link">¿Cómo Funciona?</a>
+          <a href="#" class="navegacion__link">Precios</a>
+          <a href="#" class="navegacion__link">Contratar</a>
+        </nav>
+      </div>
+
+      <div class="header__grid">
+        <div class="header__texto">
+          <h1 class="header__heading">Recibe y realiza pagos en tu celular con Stellarpay</h1>
+          <a class="header__boton" href="#">Obtener Cuenta</a>
+        </div>
+        <div class="header__grafico">
+          <img class="header__imagen" src="img/app_2.png" alt="Ilustración de la app">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="stellarpay">
+    <div class="stellarpay__contenedor">
+      <h2 class="stellarpay__heading">¿Qué es?</h2>
+      <div class="stellarpay__grid">
+        <div class="stellarpay__imagen">
+          <img src="img/app_5.png" alt="App Stellarpay">
+        </div>
+        <div class="listado">
+          <div class="listado__elemento">
+            <h3 class="listado__heading">Fácil</h3>
+            <p class="listado__texto">Crea una cuenta, envía tu documentación y comienza a utilizar StellarPay en un par de horas</p>  
+          </div>
+          <div class="listado__elemento">
+            <h3 class="listado__heading">Seguro</h3>
+            <p class="listado__texto">Por su tecnología digital StellarPay es imposible de hackear o robar</p>
+          </div>
+          <div class="listado__elemento">
+            <h3 class="listado__heading">Administrable</h3>
+            <p class="listado__texto">Añade o transfiere fondos a tu banco, establece límites o controla tus gastos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="seguridad">
+    <div class="seguridad__contenedor">
+      <h2 class="seguridad__heading">StellarPay es seguro</h2>
+      <div class="seguridad__grid">
+        <div class="listado">
+          <div class="listado__elemento">
+            <p class="listado__texto">StellarPay es seguro e imposible de clonar</p>
+          </div>
+          <div class="listado__elemento">
+            <p class="listado__texto">Utiliza tu cara o tu dedo para confirmar depósitos o registrar una cuenta</p>
+          </div>
+          <div class="listado__elemento">
+            <p class="listado__texto">Paga en establecimientos con una tarjeta de crédito que se desactiva tras tu compra</p>
+          </div>
+        </div>
+        <div class="seguridad__imagen">
+          <img src="img/seguridad.png" alt="Seguridad Stellarpay">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="comisiones">
+    <div class="comisiones__contenedor">
+      <h2 class="comisiones__heading">Comisiones</h2>
+      <div class="comisiones__grid">
+        <div class="comisiones__contenido">
+          <p class="comisiones__texto">Mientras más utilices StellarPay, menos pagas:</p>
+          <div class="listado">
+            <div class="listado__elemento listado__elemento--2col">
+              <p class="listado__numero">3%</p>
+              <p class="listado__texto">de todas tus transacciones si tus movimientos son menores a $999 USD.</p>
+            </div>
+            <div class="listado__elemento listado__elemento--2col">
+              <p class="listado__numero">2.5%</p>
+              <p class="listado__texto">de todas tus transacciones si tus movimientos son mayores a $999 USD.</p>
+            </div>
+          </div>
+        </div>
+        <div class="comisiones__imagen">
+          <img src="img/app-3.png" alt="Ilustración de comisiones">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimoniales">
+    <div class="testimoniales__contenedor">
+      <h2 class="testimoniales__heading">Testimoniales</h2>
+      <div class="testimoniales__grid">
+        <div class="testimonial">
+          <p class="testimonial__texto">Excelente app, muy sencilla de manejar y enviar dinero</p>
+          <p class="testimonial__autor">- Martin Esquivias</p>
+        </div>
+        <!-- Repetir testimoniales según sea necesario -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__contenedor">
+      <div class="footer__grid">
+        <div class="footer__logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 320">
+          <defs>
+            <!-- Gradiente de cian a rosa -->
+            <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stop-color="#00bcd4"/>
+              <stop offset="100%" stop-color="#e040fb"/>
+            </linearGradient>
+          </defs>
+          <!-- Isotipo: forma abstracta de estrella/cometa -->
+          <polygon fill="url(#gradient)" points="150,20 180,120 280,120 200,180 230,280 150,220 70,280 100,180 20,120 120,120" />
+          <!-- Logotipo tipográfico -->
+          <text x="150" y="315" font-family="Poppins, sans-serif" font-size="40" fill="#FFF" text-anchor="middle">
+            Stellarpay
+          </text>
+        </svg>
+      </div>
+        <nav class="navegacion">
+          <a href="#" class="navegacion__link navegacion__link--blanco">¿Qué es?</a>
+          <a href="#" class="navegacion__link navegacion__link--blanco">¿Cómo Funciona?</a>
+          <a href="#" class="navegacion__link navegacion__link--blanco">Precios</a>
+          <a href="#" class="navegacion__link navegacion__link--blanco">Contratar</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
+
