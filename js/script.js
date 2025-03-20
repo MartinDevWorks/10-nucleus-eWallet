@@ -1,4 +1,4 @@
-// JavaScript Mejorado
+// JavaScript
 document.addEventListener('DOMContentLoaded', () => {
     // Scroll suave para enlaces ancla
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
